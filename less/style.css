@@ -71,9 +71,13 @@ body {
   position: absolute;
   line-height: 2em;
   font-size: 0.8em;
+  color: white;
   background-color: red;
-  width: 7em;
   right: 1em;
+}
+#subscribeButton > p {
+  color: blue;
+  font-size: 1em;
 }
 .exploreBar {
   height: 80%;
