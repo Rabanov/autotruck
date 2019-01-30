@@ -1,0 +1,121 @@
+body {
+  background-color: #eff0f4;
+  font-family: 'Krub', sans-serif;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.navbar {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+}
+.main {
+  width: 90%;
+  height: 400px;
+  top: 8%;
+  left: 5%;
+  position: absolute;
+}
+.homeSplash {
+  background-image: url("../img/cars.jpg");
+  background-size: cover;
+  display: block;
+  height: 15em;
+  top: 10%;
+  left: 5%;
+}
+.signUpBanner {
+  background-color: darkblue;
+  height: 3em;
+  position: relative;
+}
+.signUp {
+  width: 7em;
+  position: absolute;
+  left: 2em;
+  font-size: 1em;
+  color: gray;
+  overflow: hidden;
+}
+.inputField {
+  background-color: white;
+  height: 2em;
+  width: 17em;
+  position: absolute;
+  line-height: 2em;
+  font-size: 0.8em;
+}
+#inputName {
+  background-color: white;
+  height: 2em;
+  width: 17em;
+  position: absolute;
+  line-height: 2em;
+  font-size: 0.8em;
+  right: 10em;
+}
+#inputEmail {
+  background-color: white;
+  height: 2em;
+  width: 17em;
+  position: absolute;
+  line-height: 2em;
+  font-size: 0.8em;
+  right: 30em;
+}
+#subscribeButton {
+  background-color: white;
+  height: 2em;
+  width: 17em;
+  position: absolute;
+  line-height: 2em;
+  font-size: 0.8em;
+  background-color: red;
+  width: 7em;
+  right: 1em;
+}
+.exploreBar {
+  height: 80%;
+  top: 8%;
+  margin: auto;
+  width: 100%;
+}
+.explore {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: purple;
+  border: 10px solid #eff0f4;
+}
+.promoBanner {
+  background-color: red;
+  height: 25%;
+}
+.blurbLeft {
+  background-color: black;
+  color: white;
+  width: 55%;
+  height: 30%;
+  float: left;
+  vertical-align: middle;
+}
+.blurbRight {
+  background-color: white;
+  color: black;
+  width: 45%;
+  height: 40%;
+  margin: 0;
+  float: left;
+  vertical-align: middle;
+}
+.logoImg {
+  background-image: url("../img/BBB.png");
+}
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  clear: both;
+}
