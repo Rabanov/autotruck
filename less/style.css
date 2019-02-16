@@ -1,3 +1,8 @@
+.defaultShadow {
+  border-style: solid #595c5e;
+  border-radius: 1px;
+  box-shadow: 0 0 10px #595c5e;
+}
 body {
   background-color: #eff0f4;
   font-family: 'Krub', sans-serif;
@@ -22,7 +27,7 @@ body {
   background-image: url("../img/cars.jpg");
   background-size: cover;
   display: block;
-  height: 15em;
+  height: 20em;
 }
 .signUpContainer {
   background-color: #f4f7fc;
@@ -89,22 +94,32 @@ body {
   font-size: 1em;
   text-align: center;
   margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-right: 1em;
 }
-.exploreBar {
-  height: 80%;
-  top: 8%;
+.exploreContainer {
+  height: 20em;
+  padding: 1em;
   margin: auto;
-  width: 100%;
 }
 .explore {
-  box-sizing: border-box;
-  width: 25%;
+  width: 20%;
   height: 100%;
   float: left;
-  background-color: purple;
-  border: 10px solid #eff0f4;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-style: solid #595c5e;
+  border-radius: 1px;
+  box-shadow: 0 0 10px #595c5e;
+  overflow: hidden;
+}
+.explore > img {
+  height: 100%;
+}
+#exploreFirst {
+  margin-left: 1em;
+}
+#exploreLast {
+  margin-right: 0.5em;
 }
 .promoBanner {
   background-color: red;
