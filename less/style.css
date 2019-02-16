@@ -24,78 +24,73 @@ body {
   display: block;
   height: 15em;
 }
-.signUpBanner {
+.signUpContainer {
   background-color: #f4f7fc;
   height: 3em;
-  position: relative;
+  line-height: 1em;
   padding: 5px;
 }
 .signUp {
   color: gray;
   width: 7em;
-  left: 2em;
   font-size: 1em;
-  position: absolute;
+  margin: 0.5em 2em 0.5em 0.5em;
+  float: left;
   overflow: hidden;
 }
 .inputField {
   background-color: #f9fcff;
-  height: 2em;
-  width: 17em;
-  position: absolute;
+  min-width: 20em;
   line-height: 2em;
-  font-size: 0.8em;
+  font-size: 1em;
+  padding-left: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   border-style: solid #e0e3e5;
   border-radius: 1px;
   box-shadow: 0 0 3px #e0e3e5;
+  float: left;
 }
 #inputName {
   background-color: #f9fcff;
-  height: 2em;
-  width: 17em;
-  position: absolute;
+  min-width: 20em;
   line-height: 2em;
-  font-size: 0.8em;
+  font-size: 1em;
+  padding-left: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   border-style: solid #e0e3e5;
   border-radius: 1px;
   box-shadow: 0 0 3px #e0e3e5;
-  right: 10em;
-}
-#inputEmail {
-  background-color: #f9fcff;
-  height: 2em;
-  width: 17em;
-  position: absolute;
-  line-height: 2em;
-  font-size: 0.8em;
-  border-style: solid #e0e3e5;
-  border-radius: 1px;
-  box-shadow: 0 0 3px #e0e3e5;
-  right: 30em;
+  float: left;
+  margin-right: 2em;
 }
 #subscribeButton {
   background-color: #f9fcff;
-  height: 2em;
-  width: 17em;
-  position: absolute;
+  min-width: 20em;
   line-height: 2em;
-  font-size: 0.8em;
+  font-size: 1em;
+  padding-left: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   border-style: solid #e0e3e5;
   border-radius: 1px;
   box-shadow: 0 0 3px #e0e3e5;
+  float: left;
   color: white;
   background-color: #c10909;
-  width: 12em;
+  min-width: 14em;
   border: none;
   box-shadow: none;
-  right: 1em;
+  margin-right: 0.5em;
+  float: right;
 }
 #subscribeButton > p {
   font-size: 1em;
   text-align: center;
   margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .exploreBar {
   height: 80%;
