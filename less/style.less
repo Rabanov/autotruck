@@ -1,7 +1,7 @@
 @defaultBackgroundColor: #eff0f4;
 @defaultNavbarColor: black;
 
-.defaultShadow {
+.default-shadow {
     border-style: solid #595c5e;
     border-radius: 1px;
     box-shadow: 0 0 10px #595c5e;
@@ -92,7 +92,7 @@ body {
 .explore-container{ 
     height: 20em;
     padding: 1em;
-    margin: auto;
+    margin-top: 2em;
 }
 
 .explore {
@@ -101,7 +101,7 @@ body {
     float:left;
     margin-left:2em;
     margin-right:2em;
-    .defaultShadow;
+    .default-shadow;
     overflow: hidden;
     > img {
         height: 100%;
@@ -124,6 +124,7 @@ body {
     border-style: solid #595c5e;
     border-radius: 1px;
     box-shadow: 0 0 15px #595c5e;  
+    margin-top: 2em;
   }
 
   .location-heading {
@@ -147,7 +148,6 @@ body {
     font-size: 4em;
   }
 
-
   #location-search {
     max-width: 22em;
     min-width: 22em;
@@ -163,7 +163,7 @@ body {
     margin-left: 35em;
   }
 
-  .arrow{
+  .input-field-arrow{
     max-height: 2em;
     max-width: 1.8em;
     margin-left:11em;
@@ -180,23 +180,28 @@ body {
     margin: 0.2em;
   }
 
+.blurb-container {
+    line-height: 10em;
+    margin-top: 2em;
+}
+
 .blurb-left{
+    .default-shadow;
     background-color:black;
     color:white;
     width:55%;
     height:8em;
     float:left;
-    vertical-align: middle;
 }
 
 .blurb-right{
+    .default-shadow;
     background-color:white;
     color:black;
     width:45%;
     height:10em;
     margin:0;
     float:left;
-    vertical-align:middle;
 }
 
 .logo-bar {
