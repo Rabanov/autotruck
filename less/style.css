@@ -8,7 +8,7 @@ body {
   font-family: 'Krub', sans-serif;
   position: relative;
 }
-.navbar {
+.external-navbar {
   background-color: black;
   height: 10em;
   width: 95%;
@@ -23,19 +23,19 @@ body {
   margin: auto;
   z-index: 0;
 }
-.homeSplash {
+.internal-navbar {
   background-image: url("../img/cars.jpg");
   background-size: cover;
   display: block;
   height: 20em;
 }
-.signUpContainer {
+.sign-up-container {
   background-color: #f4f7fc;
   height: 3em;
   line-height: 1em;
   padding: 5px;
 }
-.signUp {
+.sign-up {
   color: gray;
   width: 7em;
   font-size: 1em;
@@ -43,7 +43,7 @@ body {
   float: left;
   overflow: hidden;
 }
-.inputField {
+.input-field {
   background-color: #f9fcff;
   min-width: 20em;
   line-height: 2em;
@@ -56,10 +56,10 @@ body {
   box-shadow: 0 0 3px #e0e3e5;
   float: left;
 }
-#inputName {
+#input-name {
   margin-right: 2em;
 }
-#subscribeButton {
+#subscribe-button {
   color: white;
   background-color: #c10909;
   min-width: 14em;
@@ -68,13 +68,13 @@ body {
   margin-right: 0.5em;
   float: right;
 }
-#subscribeButton > p {
+#subscribe-button > p {
   font-size: 1em;
   text-align: center;
   margin: auto;
   padding-right: 1em;
 }
-.exploreContainer {
+.explore-container {
   height: 20em;
   padding: 1em;
   margin: auto;
@@ -93,17 +93,13 @@ body {
 .explore > img {
   height: 100%;
 }
-#exploreFirst {
+#explore-first {
   margin-left: 1em;
 }
-#exploreLast {
+#explore-last {
   margin-right: 0.5em;
 }
-.promoBanner {
-  background-color: red;
-  height: 25%;
-}
-.location {
+.location-container {
   background-color: #c10909;
   width: 100%;
   height: 8em;
@@ -112,7 +108,21 @@ body {
   border-radius: 1px;
   box-shadow: 0 0 15px #595c5e;
 }
-#locationSearch {
+.location-heading {
+  height: 6em;
+  margin: 1em;
+  float: left;
+  text-align: center;
+}
+.location-heading > p1 {
+  color: black;
+  font-size: 2em;
+}
+.location-heading > p2 {
+  color: white;
+  font-size: 4em;
+}
+#location-search {
   max-width: 22em;
   min-width: 22em;
   margin-top: 3em;
@@ -123,7 +133,7 @@ body {
   max-height: 2em;
   max-width: 2em;
   margin-top: 3em;
-  margin-left: 50em;
+  margin-left: 35em;
 }
 .arrow {
   max-height: 2em;
@@ -131,7 +141,7 @@ body {
   margin-left: 11em;
   vertical-align: bottom;
 }
-.okButton {
+.ok-button {
   background-color: #c10909;
   color: white;
   height: 1.8em;
@@ -140,7 +150,7 @@ body {
   float: right;
   margin: 0.2em;
 }
-.blurbLeft {
+.blurb-left {
   background-color: black;
   color: white;
   width: 55%;
@@ -148,7 +158,7 @@ body {
   float: left;
   vertical-align: middle;
 }
-.blurbRight {
+.blurb-right {
   background-color: white;
   color: black;
   width: 45%;
@@ -157,7 +167,7 @@ body {
   float: left;
   vertical-align: middle;
 }
-.logoImg {
+.logo-img {
   background-image: url("../img/BBB.png");
 }
 .footer {
